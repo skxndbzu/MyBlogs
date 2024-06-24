@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "scripts": {
     "docs:dev": "vuepress dev .",
-    "docs:build": "set --max_old_space_size=8192 && vuepress build ."
+    "docs:build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 vuepress build . "
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-google-analytics": "^1.9.10",
     "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "cross-env": "^7.0.3",
     "vuepress": "^1.9.10",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-feed": "^0.1.9",
