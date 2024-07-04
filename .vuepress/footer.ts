@@ -11,6 +11,6 @@ export default {
   ],
   copyright: {
     href: "https://beian.miit.gov.cn/",
-    name: "沪ICP备19026706号-6",
+    name: "蜀ICP备19026706号-6",
   },
 };
